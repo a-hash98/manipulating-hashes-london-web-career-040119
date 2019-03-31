@@ -11,7 +11,7 @@ def second_challenge
   groceries.each do |k,arr|
     val.push(k.values)
   end
-  return val  
+  return val
 end
 
 second_challenge
