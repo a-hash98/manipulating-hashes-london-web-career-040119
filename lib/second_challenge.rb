@@ -7,7 +7,6 @@ def second_challenge
   }
 
   #code your solution here!
+  puts groceries.values
 
 end
-
-puts second_challenge.values
