@@ -12,6 +12,14 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
+  contacts["Freddy Mercury"].each do |att, data|
+    if attr == :favourite_icecream_flavours
+      data.delete_if{|item| item >= "strawberry"}
+    end
+  end
+
+  
+
 
   #your code here
 
