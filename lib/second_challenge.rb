@@ -12,3 +12,5 @@ def second_challenge
   print g
 
 end
+
+second_challenge
